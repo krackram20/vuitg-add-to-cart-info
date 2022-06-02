@@ -1,0 +1,6 @@
+{
+  "add-to-cart-info": {
+    "component": "AddtoCartInfo",
+    "render": "client"
+  }
+}
