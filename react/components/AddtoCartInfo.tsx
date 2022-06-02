@@ -1,12 +1,20 @@
 import React from 'react'
 import { useProduct } from 'vtex.product-context'
+import { useOrderForm } from 'vtex.order-manager/OrderForm'
+
+import ButtonGroup from './ButtonGroup'
 
 const AddtoCartInfo = () => {
   const productInfo = useProduct()
+  const { orderForm } = useOrderForm()
 
-  console.log('este producto tiene esta info', productInfo)
+  console.log('esta ', orderForm, productInfo)
 
-  return <div>Aqui va el tercer componente </div>
+  return (
+    <>
+      <ButtonGroup /> {/*   acciones */}
+    </>
+  )
 }
 
 export default AddtoCartInfo
