@@ -8,7 +8,7 @@ const ButtonGroup = () => {
       </div>
       <div>
         <button>continua comprando</button>
-        <a href="/">ver carrito</a>
+        <a href="/cart">ver carrito</a>
       </div>
     </>
   )

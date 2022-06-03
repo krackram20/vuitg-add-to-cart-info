@@ -1,0 +1,15 @@
+.container{
+  background-color: rgb(245, 245, 245);
+  padding: 20px;
+  display: flex;
+}
+
+.container:nth-child(n) {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+p{
+  padding: 10px;
+}
